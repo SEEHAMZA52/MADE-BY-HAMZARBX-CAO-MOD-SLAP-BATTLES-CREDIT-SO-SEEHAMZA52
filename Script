@@ -1,0 +1,6 @@
+local DrRayLibrary = loadstring(game:HttpGet("https://raw.githubusercontent.com/AZYsGithub/DrRay-UI-Library/main/DrRay.lua"))()
+local window = DrRayLibrary:Load("HAMZARBX Slap Battles Boxer", "Default")
+local tab = DrRayLibrary.newTab("Boxer Farm V1 SLAP", "ImageIdHere")
+tab.newButton("Boxer Farm V1", "Credit To SeeHamza!", function(value)
+loadstring(game:HttpGet("https://raw.githubusercontent.com/caomod2077/SB/refs/heads/main/BoxerFarm.lua"))()
+end)
